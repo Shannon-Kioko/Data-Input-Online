@@ -15,7 +15,7 @@ include('components/header.inc.php');
 </nav>
 
 <?php
-$conn = mysqli_connect("localhost", "root", "Shannon248001###", "kca");
+$conn = mysqli_connect("localhost", "root", "kca");
 if (!$conn) {
     echo "<p class='text-center text-red m-0'>Connection failed.</p>";
 } else {
