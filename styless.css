@@ -1,0 +1,19 @@
+body {
+    padding-top: 20;
+    background-color: #5F6F52;
+}
+
+.btn-primary {
+    background-color: #B99470;
+    margin: 0 0 0 50;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+form {
+    width: 50%;
+}
+

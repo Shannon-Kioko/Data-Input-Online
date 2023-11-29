@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styless.css"
+</head>
+<body>
+
+    <form role="form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+      <div class="form-group row">
+        <label for="regno" class="col-sm-2 col-form-label">Registeration Number</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="regno" name="regno" placeholder="Enter Registration number">
+        </div>
+      </div>
+      
+      <div class="form-group row">
+        <label for="fname" class="col-sm-2 col-form-label">First Name</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="fname" name="fname" placeholder="First Name">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label for="mname" class="col-sm-2 col-form-label">Middle Name</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="mname" name="mname" placeholder="Middle Name">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label for="sname" class="col-sm-2 col-form-label">Surname</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="sname" name="sname" placeholder="Surname">
+        </div>
+      </div>
+     
+      <div class="form-group row">
+        <label for="age" class="col-sm-2 col-form-label">Age</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="age" name="age" placeholder="Age">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label for="course" class="col-sm-2 col-form-label">Course</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="course" name="course" placeholder="Course">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label for="guardian" class="col-sm-2 col-form-label">Guardian</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="guardian" name="guardian" placeholder="Guardian">
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <label for="tel" class="col-sm-2 col-form-label">Telephone Number</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="tel" name="tel" placeholder="07...">
+        </div>
+      </div>
+
+      
+      <div class="form-group row">
+        <div class="offset-sm-2 col-sm-10">
+          <input type="submit" value="Sign in" name="submit" class="btn btn-primary"/>
+        </div>
+      </div>
+    </form>    
+
+</body>
+</html>
