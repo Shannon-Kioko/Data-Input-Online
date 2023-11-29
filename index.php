@@ -74,7 +74,7 @@
 </div>
     <a href="viewer.php"><button type="button" class="btn btn-secondary btn-lg btn-block">Display Results</button></a>
 <?php
-$conn = mysqli_connect("localhost", "root", "Shannon248001###", "kca");
+$conn = mysqli_connect("localhost", "root", "kca");
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 } else {
